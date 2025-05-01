@@ -1,18 +1,17 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { SiMongodb, SiPython } from "react-icons/si";
+import { FaNodeJs, FaJava } from "react-icons/fa";
+import { SiPandas } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
-  initial: { y: -10 }, // Fixed typo here
+  initial: { y: -10 },
   animate: {
     y: [10, -10],
     transition: {
       duration: duration,
-      ease: "linear", // lowercase 'linear'
+      ease: "linear",
       repeat: Infinity,
       repeatType: "reverse",
     }
@@ -26,10 +25,9 @@ const Technologies = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        //viewport={{ once: true, margin: "-100px" }}
         className="my-20 text-center text-4xl"
       >
-        Technologies
+        TechStack
       </motion.h2>
       
       <motion.div 
@@ -39,7 +37,7 @@ const Technologies = () => {
         viewport={{ once: true, margin: "-100px" }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        {[2.5, 3, 5, 2, 6, 4].map((duration, index) => (
+        {[2.5, 3, 5, 2, 6, 4, 3.5, 4].map((duration, index) => ( 
           <motion.div
             key={index}
             variants={iconVariants(duration)}
@@ -53,9 +51,10 @@ const Technologies = () => {
               <RiReactjsLine className="text-7xl text-cyan-400" />,
               <TbBrandNextjs className="text-7xl" />,
               <SiMongodb className="text-7xl text-cyan-500" />,
-              <DiRedis className="text-7xl text-red-700" />,
               <FaNodeJs className="text-7xl text-green-500" />,
-              <BiLogoPostgresql className="text-7xl text-sky-700" />
+              <FaJava className="text-7xl text-red-600" />,
+              <SiPython className="text-7xl text-yellow-400" />,
+              <SiPandas className="text-7xl text-blue-600" />
             ][index]}
           </motion.div>
         ))}

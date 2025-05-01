@@ -55,12 +55,12 @@ const Hero = () => {
             <motion.span 
             variants={childVariants}
             className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
-              Full Stack Developer
+              Aspiring Software Engineer
             </motion.span>
             <motion.p
               variants={childVariants}
               className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              {HERO_CONTENT}
+              Hi, I have hands-on experience in coding, problem-solving, and project development. Proficient in front-end technologies like React and Next.js, as well as back-end systems using Node.js, Python, and Java. Experienced in database management with PostgreSQL, and MongoDB, and skilled in data manipulation and analysis using NumPy and Pandas. Passionate about leveraging my technical expertise to build innovative solutions that enhance user experiences and drive business growth.
             </motion.p>
             <motion.a 
             variants={childVariants}

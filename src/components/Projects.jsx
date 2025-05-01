@@ -2,26 +2,27 @@ import { motion } from "framer-motion";
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.webp";
 
 const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Platform",
-            description: "Full-stack online store with payment integration",
-            image: project1,
-            technologies: ["React", "Node.js", "MongoDB", "Stripe"]
-        },
-        {
-            title: "Task Manager",
-            description: "Productivity app with real-time updates",
-            image: project2,
-            technologies: ["React", "Firebase", "Tailwind CSS"]
-        },
-        {
             title: "Portfolio Website",
-            description: "Modern responsive portfolio",
+            description: "A sleek, modern portfolio built with React and Framer Motion. Features smooth animations, responsive design, and a clean UI to showcase my projects and skills effectively. Developed with Vite for optimal performance.",
+            image: project1,
+            technologies: ["React", "Vite", "Framer Motion","TailwindCSS"]
+        },
+        {
+            title: "Movie Watching Platform",
+            description: "Movie discovery app using TMDB API to dynamically fetch and display films. Features clean UI for browsing, searching, and viewing ratings/descriptions.",
             image: project3,
-            technologies: ["React", "Vite", "Framer Motion"]
+            technologies: ["HTML", "CSS", "React","TMDB API"]
+        },
+        {
+            title: "Emotion Detection Model",
+            description: "Built an emotion recognition system analyzing EEG signals with machine learning, demonstrating strong skills in data processing and AI model development.",
+            image: project4,
+            technologies: ["Python", "Numpy/Pandas", "TensorFlow/PyTorch","SVM/Random Forest"]
         }
     ];
 

@@ -1,12 +1,41 @@
-# React + Vite
+# 🌟 Modern Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/Visit%20Portfolio-Live%20Site-brightgreen)](https://yourportfolio.link)
+[![Built with Vite](https://img.shields.io/badge/Build%20Tool-Vite-646CFF)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/Framework-React-61DAFB)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-Currently, two official plugins are available:
+A sleek, high-performance portfolio website showcasing my projects and skills as a developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Screenshot](./public/screenshot.png)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Blazing Fast** - Built with Vite + React for optimal performance
+- **Eye-catching Animations** - Smooth transitions with Framer Motion
+- **Responsive Design** - Perfectly adapted for all devices
+- **Project Showcase** - Interactive project case studies with:
+  - Live demos
+  - Code snippets
+  - Technology tags
+- **SEO Optimized** - Proper meta tags and semantic HTML
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion (animations)
+- React Icons
+
+**Developer Experience:**
+- ESLint + Prettier
+- Git hooks
+- Responsive breakpoints
+
+## 🚀 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git

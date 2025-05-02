@@ -1,6 +1,6 @@
 # 🌟 Modern Developer Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Visit%20Portfolio-Live%20Site-brightgreen)](https://yourportfolio.link)
+[![Live Demo](https://img.shields.io/badge/Visit%20Portfolio-Live%20Site-brightgreen)](https://soumya-bhunia.vercel.app/)
 [![Built with Vite](https://img.shields.io/badge/Build%20Tool-Vite-646CFF)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/Framework-React-61DAFB)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)

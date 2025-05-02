@@ -7,7 +7,6 @@
 
 A sleek, high-performance portfolio website showcasing my projects and skills as a developer.
 
-![Portfolio Screenshot](./public/screenshot.png)
 
 ## ✨ Features
 
@@ -34,8 +33,3 @@ A sleek, high-performance portfolio website showcasing my projects and skills as
 - Git hooks
 - Responsive breakpoints
 
-## 🚀 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/portfolio.git
